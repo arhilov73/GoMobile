@@ -1,0 +1,176 @@
+@media (max-width: 1439px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+
+  #rules-modal {
+    left: 23%;
+  }
+
+  footer {
+    position: relative;
+    padding: 60px 0 20px;
+    height: auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .rules {
+    position: absolute;
+    top: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .banner .banner_text-block {
+    width: 90%;
+    text-align: center;
+  }
+  .banner .banner_button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #rules-modal {
+    width: 90%;
+    left: 5%;
+  }
+
+  footer {
+    padding-top: 40px;
+  }
+  footer .store-links_link-block {
+    width: 68px;
+    height: 20px;
+  }
+  footer .rules {
+    top: 10px;
+  }
+  footer .clubs-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .clubs-logo_item {
+    width: 21px;
+    height: 21px;
+  }
+  footer .clubs-logo_item img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .clubs-logo_item + .clubs-logo_item {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .banner {
+    padding: 21px 0 0 0;
+  }
+  .banner .banner_logo {
+    width: 66px;
+    height: 22px;
+    margin-bottom: 12px;
+  }
+  .banner .banner_text .banner_text_span:first-child {
+    font-size: 53px;
+    letter-spacing: 5px;
+  }
+  .banner .banner_text .banner_text_span:nth-child(2) {
+    font-size: 31px;
+    margin-bottom: 5px;
+  }
+  .banner .banner_text .banner_text_span:nth-child(3) {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .banner .banner_text .banner_text_span:nth-child(4) {
+    font-size: 12px;
+    letter-spacing: .8px;
+    margin-bottom: 5px;
+  }
+  .banner .banner_text .banner_text_span:last-child {
+    font-size: 11px;
+    letter-spacing: .2px;
+  }
+  .banner .banner_button {
+    width: 157px;
+    height: 38px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .banner .banner_button a {
+    font-size: 15px;
+  }
+  .banner .banner_picture {
+    width: 90%;
+    padding-top: 27px;
+  }
+
+  #rules-modal {
+    padding: 33px 20px 0 0;
+    height: 400px;
+  }
+  #rules-modal.active {
+    top: 14%;
+  }
+  #rules-modal .rules-modal_cross {
+    width: 12px;
+    height: 12px;
+    top: 12px;
+    right: 12px;
+  }
+  #rules-modal .rules-modal_header {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  #rules-modal .rules-modal_body {
+    padding: 0 23px 0 15px;
+  }
+  #rules-modal .rules-modal_body::-webkit-scrollbar {
+    width: 5px;
+  }
+  #rules-modal .rules-modal_text {
+    margin-bottom: 25px;
+    font-size: 12px;
+  }
+  #rules-modal .rules-modal_list_item {
+    padding-left: 17px;
+    font-size: 12px;
+  }
+  #rules-modal .rules-modal_list_item + .rules-modal_list_item {
+    margin-top: 15px;
+  }
+  #rules-modal .rules-modal_list + .rules-modal_header {
+    margin-top: 20px;
+  }
+
+  footer .rules_link {
+    font-size: 12px;
+  }
+}

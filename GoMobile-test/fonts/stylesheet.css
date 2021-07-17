@@ -1,0 +1,8 @@
+/* Druk Wide */
+@font-face {
+	font-family: 'Druk Wide';
+	src: local('DrukWide Bold'), local('DrukWide-Bold'),
+		url('DrukWide-Bold.otf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

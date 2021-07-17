@@ -1,0 +1,179 @@
+
+// Media screen <1440px
+@media (max-width:1439px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+// Media screen max-width 1024px
+@media (max-width:1024px) {
+    html {
+        font-size: 12px;
+    }
+    #rules-modal {
+        left: 23%;
+    }
+    footer {
+        position: relative;
+        padding: 60px 0 20px;
+        height: auto;
+        justify-content: space-around;
+
+        .rules {
+            position: absolute;
+            top: 20px;
+        }
+    }
+}
+
+// Media screen max-width 1000px
+@media (max-width:1000px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+// Media screen max-width 768px
+@media (max-width:768px) {
+    .banner {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .banner_text-block {
+            width: 90%;
+            text-align: center;
+        }
+        .banner_button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    #rules-modal {
+        width: 90%;
+        left: 5%;
+    }
+    footer {
+        padding-top: 40px;
+        .store-links_link-block {
+            width: 68px;
+            height: 20px;
+        }
+        .rules {
+            top: 10px;
+        }
+        .clubs-logo {
+            display: flex;
+        }
+        .clubs-logo_item {
+            width: 21px;
+            height: 21px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .clubs-logo_item + .clubs-logo_item {
+            margin-left: 10px;
+        }
+    }
+}
+
+// Media screen max-width 550px
+@media (max-width:550px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+// Media screen max-width 425px
+@media (max-width:425px) {
+    .banner {
+        padding: 21px 0 0 0;
+        .banner_logo {
+            width: 66px;
+            height: 22px;
+            margin-bottom: 12px;
+        }
+        .banner_text {
+            .banner_text_span {
+                &:first-child {
+                    font-size: 53px;
+                    letter-spacing: 5px;
+                }
+                &:nth-child(2) {
+                    font-size: 31px;
+                    margin-bottom: 5px;
+                }
+                &:nth-child(3) {
+                    font-size: 22px;
+                    margin-bottom: 12px;
+                }
+                &:nth-child(4) {
+                    font-size: 12px;
+                    letter-spacing: .8px;
+                    margin-bottom: 5px;
+                }
+                &:last-child {
+                    font-size: 11px;
+                    letter-spacing: .2px;
+                }
+            }
+        }
+        .banner_button {
+            width: 157px;
+            height: 38px;
+            margin-top: 20px;
+            border-radius: 5px;
+            a {
+                font-size: 15px;
+            }
+        }
+        .banner_picture {
+            width: 90%;
+            padding-top: 27px;
+        }
+    }
+    #rules-modal {
+        padding: 33px 20px 0 0;
+        height: 400px;
+        &.active {
+            top: 14%;
+        }
+        .rules-modal_cross {
+            width: 12px;
+            height: 12px;
+            top: 12px;
+            right: 12px;
+        }
+        .rules-modal_header {
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        .rules-modal_body {
+            padding: 0 23px 0 15px;
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+        }
+        .rules-modal_text {
+            margin-bottom: 25px;
+            font-size: 12px;
+        }
+        .rules-modal_list_item {
+            padding-left: 17px;
+            font-size: 12px;
+        }
+        .rules-modal_list_item + .rules-modal_list_item {
+            margin-top: 15px;
+        }
+        .rules-modal_list + .rules-modal_header {
+            margin-top: 20px;
+        }
+    }
+    footer {
+        .rules_link {
+            font-size: 12px;
+        }
+    }
+}
